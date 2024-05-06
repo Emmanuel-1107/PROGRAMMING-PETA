@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0; 
+    font-family: sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh; 
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(backgroundimgs/colloseumrome.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 6%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 100px;
+    cursor: pointer;
+    
+}
+.menu-icon{
+    width: 50px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+    nav ul li{
+        list-style: none;
+        display: inline-block;
+        margin-left: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: aqua;
+    font-size: 15px;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    color: antiquewhite;
+    font-size: 50px;
+}
+p{
+    color: antiquewhite;
+    font-size: 14px;
+    line-height: 15px;
+
+}
+.card{
+    width: 200px;
+    height: 190px;
+    display: inline-block;
+    border-radius: 12px;
+    padding: 15px 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 4.5px;
+    background-image: url(backgroundimgs/colloseumrome.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.greatwall{
+    background-image: url(backgroundimgs/greatwallofchina.jpg);
+}
+.petra{
+    background-image: url(backgroundimgs/petra.jpeg);
+}
+.colloseum{
+    background-image: url(backgroundimgs/colosseum.jpeg);
+}
+.chichen{
+    background-image: url(backgroundimgs/chichenitza.jpeg);
+}
+.machu{
+    background-image: url(backgroundimgs/machu.jpeg)
+}
+.tajmahal{
+    background-image: url(backgroundimgs/tajmahal.jpeg)
+}
+.christ{
+    background-image: url(backgroundimgs/CHRISTTHEREDEEMER.jpeg)
+}
+
+.card:hover{
+    transform: translateY(-20px);
+}
+h5{
+    color: antiquewhite;
+    text-shadow: 0 0 5px #999;
+}
