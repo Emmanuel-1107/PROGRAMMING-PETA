@@ -75,20 +75,16 @@ video{
     width: 25%;
     height: 45%;
     border-radius: 10px 10px;
-    position: inherit;
+    position: relative;
     padding-top: 110px;
     padding-left: 90px;
-    transition: transform 0.7s;
-}
-#img-1:hover{
-    transform: translateY(20px);
 }
 .info-2{
     color: #FFF;
-   position: flex;
-   margin-left: 80px;
-   margin-top: ;
+    position: flex;
+    margin-left: 10px;
+   
 
-    
+
 }
 
