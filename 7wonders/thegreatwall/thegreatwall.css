@@ -84,7 +84,65 @@ video{
     display: flex;
     margin-left: 80px;
     margin-right: 80px;
+    margin-top: 20px;
 }
+.containerpg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pagination{
+    display: flex;
+    align-items: center;
+    background: #FFF;
+    color: #e91e63;
+    padding: 10px 40px;
+    border-radius: 6px;
+}
+.second-ul{
+    margin: 20px 30px;
+}
+li.link{
+    display: inline-block;
+    margin: 0 10px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 45px;
+    cursor: pointer;
+    background-position: 0 -45px;
+    transition: background-position 0.5s;
+}
+ul li.link.active{
+    color: pink;
+    background-image: linear-gradient(#ff4568, #ff4568);
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+.btn1, .btn2{
+    display: inline-flex;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 500;
+    color: #383838;
+    background: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.btn1 img{
+    width: 24px;
+    margin-right: 15px;
+}
+.btn2 img{
+    width: 24px;
+    margin-left: 15px;
+}
+
 .fcontainer{
     max-width: 1170px;
     margin: auto;
@@ -93,7 +151,7 @@ video{
     display: flex;
     flex-wrap: wrap;
 }
-ul{
+.ul2{
     list-style: none;
 }
 .footer{
@@ -137,8 +195,3 @@ ul{
     color: white;
     padding-left: 10px;
 }
-
-
-
-
-

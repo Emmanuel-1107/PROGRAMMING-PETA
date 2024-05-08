@@ -51,15 +51,15 @@
              <!-- 3 IMAGES-->
              </div>
          <div class="bg2">
-                <img src="/backgroundimgs/CHRISTTHEREDEEMER.jpeg" id="img-1" draggable="false">
+                <img src="/extra imgs/greatwallcondition1.jpg" id="img-1" draggable="false">
 
-                <img src="/backgroundimgs/colloseumrome.jpg" id="img-1" draggable="false">
+                <img src="/extra imgs/greatwallpart.jpg" id="img-1" draggable="false">
 
-                <img src="/backgroundimgs/machu.jpeg" id="img-1" draggable="false">
+                <img src="/extra imgs/thegreatwallin1907.jpg" id="img-1" draggable="false">
+               
            
                 <span class="info-2">
-                    <BR> 
-                    While portions north of Beijing and near tou
+                    While portions north of Beijing and near tourist
                     centers have been preserved and even extensively renovated, 
                     in many other locations the wall is in disrepair. The wall 
                     sometimes provided a source of stones to build houses and 
@@ -86,14 +86,69 @@
                      wall to make a shortcut for an excavator to pass through. Police
                      described the act as causing "irreversible damage to the integrity 
                     of the Ming Great Wall and to the safety of the cultural relics"
-                    </span> </div>
+                    </span> 
+                <div class="containerpg">
+                    <div class="pagination">
+                        <button class="btn1" onclick="backbtn()"><img src="/icons/arrow_left_alt_24dp_FILL0_wght400_GRAD0_opsz24.png">PREV</button>
+                        <ul class="second-ul">
+                            <li class="link active" value="1" onclick="activeLink()">1</li>
+                            <li class="link" value="2" onclick="activeLink()">2</li>
+                            <li class="link" value="3" onclick="activeLink()">3</li>
+                            <li class="link" value="4" onclick="activeLink()">4</li>
+                            <li class="link" value="5" onclick="activeLink()">5</li>
+                            <li class="link" value="6" onclick="activeLink()">6</li>
+                            <li class="link" value="7" onclick="activeLink()">7</li>
+                        </ul>
+                        <button class="btn2" onclick="nextbtn()">NEXT<img src="/icons/arrow_right_alt_24dp_FILL0_wght400_GRAD0_opsz24.png"></button>
+                    </div>
+                </div>
+
+                <script>
+                let link = document.getElementsByClassName("link")
+                
+                let currentValue = 1;
+
+                function activeLink(){
+                    for(l of link){
+                        l.classList.remove("active");
+
+                    }
+                    event.target.classList.add("active");
+                    currentValue = event.target.value;
+                }
+
+                function backbtn(){
+                    if(currentValue > 1){
+                        for(l of link){
+                            l.classList.remove("active");
+                         }
+                         currentValue--;
+                         link[currentValue-1].classList.add("active");
+                        }
+
+                }
+
+                function nextbtn(){
+                    if(currentValue < 7){
+                        for(l of link){
+                            l.classList.remove("active")
+                        }
+                        currentValue++;
+                        link[currentValue-1].classList.add("active")
+                    }
+                }
+                </script>
+                
+
+                </div>
+                
 
                     <!--FOOTER-->
                 <footer class="footer">
              <div class="fcontainer">
             <div class="row">
             <div class="footer-col">
-                 <h4>7 WONDERS OFTHE WORLD</h4>
+                 <h4>7 WONDERS OF THE WORLD</h4>
                  <ul>
                   <li><a href="/index.html">HOME</a></li>
                  </ul>
@@ -110,8 +165,8 @@
                 <div class="footer-col">
                  <h4>FOLLOW US</h4>
                  <ul>
-                <li><a href="https://www.facebook.com/profile.php?id=100004811797956">FB: EMMANUEL GOLONDRINA</a></li>
-                <li><a href="https://www.instagram.com/ffujiii_11/?igsh=bzRqbDczbDJ4cWxy&fbclid=IwAR3oaL_7As3mpyoaGO53Yoi0t7zUZl6_GphDc46TQIVGqJvV2-DZOJFIZZU">IG: @ffujiii_11</a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=100004811797956" target="_blank">FB: EMMANUEL GOLONDRINA</a></li> 
+                <li><a href="https://www.instagram.com/ffujiii_11/?igsh=bzRqbDczbDJ4cWxy&fbclid=IwAR3oaL_7As3mpyoaGO53Yoi0t7zUZl6_GphDc46TQIVGqJvV2-DZOJFIZZU" target="_blank">IG: @ffujiii_11</a></li>
                 <li><a href="#">X: </a></li>
                 </ul>
                 </div>
