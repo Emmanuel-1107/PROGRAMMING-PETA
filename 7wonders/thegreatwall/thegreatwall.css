@@ -76,7 +76,7 @@ video{
     height: 45%;
     border-radius: 10px 10px;
     position: relative;
-    padding-top: 110px;
+    padding-top: 70px;
     padding-left: 90px;
 }
 .info-2{
@@ -94,10 +94,14 @@ video{
 .pagination{
     display: flex;
     align-items: center;
-    background: #FFF;
-    color: #e91e63;
+    background: transparent;
+    color: #FFF;
     padding: 10px 40px;
     border-radius: 6px;
+}
+a{
+    text-decoration: none;
+    color: white;
 }
 .second-ul{
     margin: 20px 30px;
@@ -113,22 +117,21 @@ li.link{
     font-weight: 500;
     line-height: 45px;
     cursor: pointer;
-    background-position: 0 -45px;
+    background-position: -45px;
     transition: background-position 0.5s;
 }
 ul li.link.active{
     color: pink;
-    background-image: linear-gradient(#ff4568, #ff4568);
-    background-repeat: no-repeat;
+    background-image: linear-gradient(#656565, #656565);
     background-repeat: no-repeat;
     background-position: 0 0;
 }
 .btn1, .btn2{
     display: inline-flex;
     align-items: center;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 500;
-    color: #383838;
+    color: #FFF;
     background: transparent;
     outline: none;
     border: none;
@@ -141,9 +144,9 @@ ul li.link.active{
 .btn2 img{
     width: 24px;
     margin-left: 15px;
-}
-
-.fcontainer{
+}  
+                        /* FOOTER */
+.fcontainer{ 
     max-width: 1170px;
     margin: auto;
 }
@@ -153,7 +156,7 @@ ul li.link.active{
 }
 .ul2{
     list-style: none;
-}
+} 
 .footer{
     background-color: #24262b;
     padding: 70px 0;
