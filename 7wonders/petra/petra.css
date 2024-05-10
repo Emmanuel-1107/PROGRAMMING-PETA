@@ -64,31 +64,25 @@ nav ul li a{
 }
 .petra-container .parts img{
     width: 500px;
-    padding-left: 50px;
     align-self: end;
     justify-self: center;
 }
 .petra-divider{
     display: flex;
+    padding-right: 100px;
     flex: 50%;
     justify-content: center;
     align-items: center;
     color: #FFF;
 }
-.parts .petra-divider:nth-child(1) {
-    flex: 30%
-}
-
 .parts .petra-divider:nth-child(1) img {
-    align-self: end;
-    justify-self: end;
+    margin-right: 20px;
 }
-
-
 .parts .petra-divider:nth-child(2) {
-    flex: 50%;
+    display: flex;
+    flex: 60%;
+    align-items: center;
 }
-
 .parts .petra-divider:nth-child(2) span {
     width: 100%;
 }
