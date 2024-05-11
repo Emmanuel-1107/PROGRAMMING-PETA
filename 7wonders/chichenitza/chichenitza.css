@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0; 
+    font-family: sans-serif;
+}
+body {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.5)), url(/backgroundimgs/wallpaperflare.com_wallpaper.jpg) no-repeat fixed center;
+    background-size: cover;
+}
+.container {
+    width: 100%;
+    height: 100vh; 
+    padding-left: 6%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 100px;
+    cursor: pointer;
+    
+}
+.menu-icon{
+    width: 50px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+     margin-left: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #FFF;
+}
+.chichen-container{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-self: center;
+}
+.chichen-header{
+    display: flex;
+    color: #FFF;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+.chichen-parts img{
+    display: flex;
+    height: 75vh;
+    margin-left: 50px;
+    border-radius: 5px;
+}
+.chichen-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 150px;
+    padding-bottom: 10px;
+    text-align: start;
+    color: antiquewhite;
+}
+.chichen-header-1{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    color: antiquewhite;
+    margin-left: 50px;
+}
+.chichen-parts-1{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.chichen-parts-1 img{
+    height: 40vh;
+    margin-right: 50px;
+    border-radius: 5px;
+}
+.chichen-content-1{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+.chichen-content-1 span{
+    display: flex;
+    color: antiquewhite;
+    margin-top: -250px ;
+    margin-left: 50px ;
+    margin-right: 550px;
+}
+.chichen-header-2{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding-right: 100px;
+    padding-top: 60px;
+    color: antiquewhite;
+}
+.chichen-parts-2{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+}
+.chichen-parts-2 img{
+    height: 35vh;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.chichen-info-2{
+    text-align: start;
+    margin-top: -240px;
+}
+.chichen-content-2 span{
+    display: flex;
+    color: antiquewhite;
+    padding-left: 410px;
+    padding-right: 50px;
+    flex-direction: column;
+}
