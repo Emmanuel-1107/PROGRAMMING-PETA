@@ -54,7 +54,7 @@ video{
     padding-top: 3px;
 }
 .china{
-    color: #FFF;
+    color: antiquewhite;
     display: flex;
     justify-content: center
 }
@@ -73,12 +73,11 @@ video{
 #img-1{
     width: 25%;
     height: 45%;
-    position: relative;
     padding-top: 70px;
     padding-left: 90px;
 }
 .info-2{
-    color: #FFF;
+    color: antiquewhite;
     display: flex;
     margin-left: 80px;
     margin-right: 80px;

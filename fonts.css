@@ -1,0 +1,16 @@
+@font-face {
+    font-family: bembo;
+    src: url(/fonts/bembo.ttf);
+}
+@font-face {
+    font-family: sans;
+    src: url(sc:\WINDOWS\Fonts\MICROSS.TTF);
+}
+@font-face {
+    font-family: segoe-regular;
+    src: url(c:\WINDOWS\Fonts\SEGOEICONS.TTF);
+}
+@font-face {
+    font-family: segoe-bold;
+    src: url(c:\WINDOWS\Fonts\SEGUIBL.TTF);
+}

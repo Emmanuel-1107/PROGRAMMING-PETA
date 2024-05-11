@@ -4,12 +4,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>SEVEN WONDERS OF THE WORLD</title>
         <link rel="stylesheet" href="/7wonders/petra/petra.css">
+        <link rel="stylesheet" href="/fonts.css">
         <link rel="icon" href="/backgroundimgs/file.png">
     </head>
     <body>
         <div class="container">
             <div class="navbar">
-                <img  src="/backgroundimgs/EG_LOGO.png" class="logo" draggable="false"><a href="/index.html" target="_blank"></a>
+                <img  src="/backgroundimgs/EG_LOGO.png" class="logo" draggable="false">
                 <nav>
                     <ul>
                         <li><a href="/index.html">HOME</a></li>
@@ -22,9 +23,10 @@
         </div>
                 
             <div class="petra-container">
+                    <span id="petra-header"><h1>PETRA</h1></span>
                 <div class="parts">
                     <div class="petra-divider">
-                        <img src="/backgroundimgs/machu.jpeg" draggable="false">
+                        <img src="/extra imgs/petrabg.jpeg" draggable="false" id="p-img">
                     </div>  
                     <div class="petra-divider">
                         <span>Petra (Arabic: ٱلْبَتْراء, romanized: Al-Batrāʾ; Greek: Πέτρα, "Rock"), 
@@ -69,13 +71,121 @@
                 </div>
                 <div class="parts">
                     <div class="petra-divider">
-                        <img src="/backgroundimgs/colosseum.jpeg" draggable="false">
-                    </div>
+                        <img src="/extra imgs/petra2.jpg" draggable="false" id="p-img">
+                    </div>  
                     <div class="petra-divider">
-                        <span>minsan lang pala</span>
+                        <span id="info-2">Although the Nabataean kingdom became a client state of the Roman
+                            Empire in the first century BC, it was only in 106 AD that it
+                            lost its independence. Petra fell to the Romans, who annexed 
+                           Nabataea and renamed it as Arabia Petraea. Petra's importance 
+                           declined as sea trade routes emerged, and after an earthquake 
+                           in 363 destroyed many structures. In the Byzantine era, several
+                            Christian churches were built, but the city continued to decline
+                            and, by the early Islamic era, it was abandoned except for a 
+                           handful of nomads. It remained unknown to the western world until 
+                           1812, when Swiss traveller Johann Ludwig Burckhardt rediscovered it.
+                           <BR> <BR>
+                           It has been a UNESCO World Heritage Site since 1985. UNESCO has 
+                           described Petra as "one of the most precious cultural properties
+                            of man's cultural heritage". In 2007, Petra was voted one of the
+                            New 7 Wonders of the World. <strong>Petra is a symbol of Jordan</strong>, as
+                            well as Jordan's most-visited tourist attraction. Tourist numbers
+                            peaked at 1.1 million in 2019, marking the first time that the figure
+                            rose above the 1 million mark. Tourism in the historical city was hit
+                            hard by the COVID-19 pandemic, but soon after started to pick up again, 
+                           reaching 905,000 visitors in 2022.</span>
                     </div>
                 </div>
             </div>
-           
+
+            <div class="petra-container-2">
+                <div class="parts-2">
+                    <div class="petra-divider-2">
+                        <img src="/extra imgs/horizontalpetra.jpg" draggable="false" id="tombs">
+                    </div>  
+                    <div class="petra-divider-2">
+                        <span id="tomb-header"><h2>ROYAL TOMBS</h2></span>
+                    </div>
+                   
+                    <div class="petra-divider-2">
+                        <span id="tomb-body">The Royal Tombs of Petra are in the Nabatean version 
+                            of Hellenistic architecture, but their facades have worn
+                             due to natural decay. One of these tombs, the Palace Tomb, 
+                            is speculated to be the tomb for the kings of Petra. The Corinthian Tomb, 
+                            which is right next to the Palace Tomb, has the same Hellenistic
+                             architecture featured on the Treasury. The two other Royal Tombs are 
+                            the Silk Tomb and the Urn Tomb; the Silk Tomb does not stand out as 
+                            much as the Urn Tomb. The Urn Tomb features a large yard in its front, 
+                            and was turned into a church in 446 AD after the expansion of Christianity.
+                        <BR> <BR>
+                            In 2016, archaeologists using satellite imagery and drones 
+                            discovered a very large, previously unknown monumental structure
+                             whose beginnings were tentatively dated to about 150 BC, the 
+                            time when the Nabataeans initiated their public building programme. 
+                            It is located outside the main area of the city, at the foot of Jabal 
+                            an-Nmayr and about 0.5 mi (0.8 km) south of the city centre, but is 
+                            facing east, not towards the city, and has no visible relationship to
+                             it. The structure consists of a huge, 184 by 161 ft (56 by 49 m) platform, 
+                            with a monumental staircase along its eastern side. The large platform 
+                            enclosed a slightly smaller one, topped with a comparatively small 
+                            building, 28 by 28 ft (8.5 by 8.5 m), which was facing east toward 
+                            the staircase. The structure, second in size only to the Monastery
+                             complex, probably had a ceremonial function of which not even a 
+                            speculative explanation has yet been offered by the researchers.</span>
+                    </div>
+                </div>
+            
+                
+            <div class="containerpg">
+                <div class="pagination">
+                  <button class="btn1" onclick="backbtn()"><img src="/icons/arrow_left_alt_24dp_FILL0_wght400_GRAD0_opsz24.png"><a href="/7wonders/thegreatwall/thegreatwall.html">PREV</a></button>
+                    <ul class="second-ul">
+                         <li class="link active" value="2" onclick="backbtn()"><a href="/7wonders/thegreatwall/thegreatwall.html" target="_self">2</a></li>
+                         <li class="link" value="3" onclick="activeLink()"><a href="/7wonders/colosseum/colosseum.html7" target="_self">3</a></li>
+                       </ul>
+                      
+                       <button class="btn2" onclick="nextbtn()"><a href="/7wonders/colosseum/colosseum.html" target="_self">NEXT<img src="/icons/arrow_right_alt_24dp_FILL0_wght400_GRAD0_opsz24.png"></a></button>
+                   </div>
+                </div>
+                </div>
+            </div>
+            
+            <BR> <BR> <BR> <BR> <BR> <BR> <BR> <BR> <BR> <BR> 
+                <footer class="footer">
+                    <div class="fcontainer">
+                      <div class="row">
+                        <div class="footer-col">
+                       <h4>7 WONDERS OF THE WORLD</h4>
+                           <ul>
+                        <li><a href="/index.html">HOME</a></li>
+                           </ul>
+                           </div>
+                      <div class="footer-col">
+                           <h4>ABOUT US</h4>
+                           <ul>
+                       <li><a href="/navbar/aboutpage.html">ABOUT</a></li>
+                      <li><a href="/navbar/contactspage.html">CONTACTS</a></li>
+                      <li><a href="/navbar/feedback.html">FEEDBACK</a></li>
+                      <li><a href="/navbar/creditpage.html">CREDITS</a></li>
+                          </ul>
+                          </div>
+                      <div class="footer-col">
+                           <h4>FOLLOW US</h4>
+                           <ul>
+                       <li><a href="https://www.facebook.com/profile.php?id=100004811797956" target="_blank">FB: EMMANUEL GOLONDRINA</a></li> 
+                       <li><a href="https://www.instagram.com/ffujiii_11/?igsh=bzRqbDczbDJ4cWxy&fbclid=IwAR3oaL_7As3mpyoaGO53Yoi0t7zUZl6_GphDc46TQIVGqJvV2-DZOJFIZZU" target="_blank">IG: @ffujiii_11</a></li>
+                       <li><a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fstifflzy">X: @stifflzy </a></li>
+                          </ul>
+                      </div>
+                      </div>
+                    </div>
+                   </div>  
+                </footer>
     </body>
 </html>
+                    
+                        
+                    
+                
+    
+               
