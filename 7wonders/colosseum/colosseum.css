@@ -4,7 +4,7 @@
     font-family: sans-serif;
 }
 body {
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.5)), url(/backgroundimgs/colloseumrome.jpg) no-repeat fixed center;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.5)), url(/backgroundimgs/wallpaperflare.com_wallpaper1.jpg) no-repeat fixed center;
     background-size: cover;
 }
 
@@ -54,6 +54,11 @@ nav ul li a{
     align-items: center;
     text-align: center;
     margin: 50px auto;
+}
+h1{
+    font-family: bembo;
+    color: antiquewhite;
+    letter-spacing: 1px;
 }
 .container-colo{
     display: flex;

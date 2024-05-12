@@ -56,6 +56,11 @@ nav ul li a{
     justify-content: center;
     align-items: center;
 }
+h1, h2{
+    letter-spacing: 1px;
+    font-family: bembo;
+    color: antiquewhite;
+}
 .parts-2{
     padding-top: 100px;
 }
