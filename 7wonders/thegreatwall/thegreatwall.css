@@ -62,10 +62,11 @@ video{
     margin-top: 30px;
     padding-left: 6%;
     padding-right: 6%;
+    padding-bottom: ;
 }
 .info h1{
     letter-spacing: 1px;
-    padding-bottom: 20px;
+    padding-bottom: 3px;
     font-family: bembo;
     color: antiquewhite;
     
