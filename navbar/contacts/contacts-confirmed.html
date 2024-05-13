@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEVEN WONDERS OF THE WORLD</title>
+    <link rel="stylesheet" href="/navbar/contacts/contacts.css">
+    <link rel="stylesheet" href="./fonts.css">
+    <link rel="icon" href="/backgroundimgs/file.png">
+</head>
+<body>
+    <div class="container">
+        <img  src="/backgroundimgs/file.png" class="logo" draggable="false">
+    
+    <div class="head">
+    <h1> WE JUST RECEIVED  YOUR MESSAGE, THANK YOU.</h1>
+    <h2>Redirecting you to the homepage in</h2>
+    </div>
+    
+    <div id="countdown"></div>
+<script>
+    var countdownDuration = 5;
+    function updateCountdown() {
+        document.getElementById("countdown").innerText = "" + countdownDuration + "";
+        countdownDuration--;
+
+        if (countdownDuration < 0) {
+            // Redirect to a new website
+            window.location.href = "http://127.0.0.1:3000/home/index.html"; 
+        } else {
+            setTimeout(updateCountdown, 1000);
+        }
+    }
+
+    
+    updateCountdown();
+</script>
+</div>
+</body>
+</html>
